@@ -65,24 +65,6 @@ const Footer = () => {
                        Punya ide gila? Menjauhlah, kau terlalu gila.
                     </p>
                  </div>
-
-                 {/* Interactive Email Button */}
-                 {/* UBAH 3: Warna tombol email & hover state */}
-                 <div 
-                    onClick={handleCopy}
-                    className="inline-flex items-center gap-4 bg-slate-50 dark:bg-white/5 border border-slate-200 dark:border-white/10 px-6 py-4 rounded-2xl cursor-pointer hover:bg-slate-100 dark:hover:bg-white/10 hover:border-cyan-500/30 transition-all group/email w-full md:w-auto"
-                 >
-                    <div className="p-2 bg-cyan-500/10 dark:bg-cyan-500/20 rounded-full text-cyan-600 dark:text-cyan-400">
-                       <Mail size={24} />
-                    </div>
-                    <div className="flex-1">
-                       <p className="text-xs text-slate-500 uppercase tracking-wider font-bold">Drop me a line</p>
-                       <p className="text-lg font-mono text-slate-900 dark:text-white">phfikri01@gmail.com</p>
-                    </div>
-                    <div className="text-slate-400 dark:text-slate-500 group-hover/email:text-slate-900 dark:group-hover/email:text-white transition">
-                       {copied ? <Check size={20} className="text-green-500" /> : <Copy size={20} />}
-                    </div>
-                 </div>
               </div>
 
               {/* KANAN: LINKS NAVIGATION */}
